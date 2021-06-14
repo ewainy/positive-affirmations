@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Wendy+One&display=swap');
+
+* {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(200, 170, 247);
+}
+
+img {
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+  }
+
+span {
+    display: block;
+}
+
+div {
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 5%;
+padding: 2px;
+      }
+
+h2 {
+    font-family: 'Wendy One', sans-serif;
+    font-size: 4rem;
+    background: linear-gradient(90deg, yellow,  aqua, magenta);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black;
+    margin-bottom: -10px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align:center;
+    letter-spacing: 4px;
+}
+
+button {
+    background-color: aquamarine; 
+    border: 2px black solid;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 900;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: cyan;
+}
+
+@media screen and (max-width: 400px) {
+   h2 {
+      font-size: 2.75rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 0.75rem;
+        margin-top: 10px;
+    }
+
+    img {
+        width: 80%;
+        height: 80%;
+    }
+  }
